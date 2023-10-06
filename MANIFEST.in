@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include night_badge *.css
+recursive-include night_badge *.csv
+recursive-include night_badge *.html
+recursive-include night_badge *.ico
+recursive-include night_badge *.js
+recursive-include night_badge *.json
+recursive-include night_badge *.md
+recursive-include night_badge *.png
+recursive-include night_badge *.py
+recursive-include night_badge *.svg
+recursive-include night_badge *.txt
+recursive-exclude night_badge *.pyc
