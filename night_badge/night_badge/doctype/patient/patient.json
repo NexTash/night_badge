@@ -15,7 +15,10 @@
   "column_break_q9n3x",
   "nationality",
   "cnic_no",
-  "passport_no"
+  "passport_no",
+  "section_break_zfugu",
+  "visits",
+  "amended_from"
  ],
  "fields": [
   {
@@ -31,6 +34,7 @@
    "label": "Date Of Birth"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "cnic_no",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -63,11 +67,31 @@
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "label": "Image"
+  },
+  {
+   "fieldname": "section_break_zfugu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "visits",
+   "fieldtype": "Table",
+   "label": "Visits",
+   "options": "Visits"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Patient",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-07 03:11:42.095697",
+ "modified": "2023-10-13 05:33:13.274007",
  "modified_by": "Administrator",
  "module": "Night Badge",
  "name": "Patient",
